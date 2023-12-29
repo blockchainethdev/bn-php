@@ -1,0 +1,23 @@
+{
+    "name": "blockchainethdev/bn-php",
+    "description": "Big number implementation compatible with bn.js",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "blockchainethdev Team",
+            "email": "s.smyczynski@blockchainethdev.com",
+            "homepage": "https://blockchainethdev.com"
+        }
+    ],
+    "require": {
+        "blockchainethdev/bigint-wrapper-php": "~1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BN\\": "lib/"
+        }
+    }
+}
